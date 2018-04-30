@@ -15,48 +15,52 @@
         android:layout_marginTop="150dp" />
 
     <LinearLayout
+        android:id="@+id/food_listview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/food_list_theme">
 
         <TextView
             android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:textColor="@color/colorPrimaryText"
-            android:textSize="30sp" />
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
 
         <TextView
             android:id="@+id/food1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorSecondaryText"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/food2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorSecondaryText"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/food3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorSecondaryText"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/food4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/colorSecondaryText"
             android:textSize="20sp" />
     </LinearLayout>
 

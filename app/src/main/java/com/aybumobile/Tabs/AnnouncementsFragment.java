@@ -16,22 +16,10 @@ import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.Toast;
-
-import com.aybumobile.MainActivity;
 import com.aybumobile.R;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-
-import java.io.IOException;
-import java.nio.file.WatchEvent;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class AnnouncementsFragment extends Fragment {
@@ -76,18 +64,17 @@ public class AnnouncementsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse(linkList.get(i)));
-                Log.e("orhan33", linkList.get(i));
                 getActivity().startActivity(browser);
             }
         });
         listView.setAdapter(adapter);
 
-        new connect().execute();
+        new connect_ann().execute();
 
         return view;
     }
 
-    public class connect extends AsyncTask<Void, Void, Void> {
+    public class connect_ann extends AsyncTask<Void, Void, Void> {
 
         @Override
         protected Void doInBackground(Void... voids) {

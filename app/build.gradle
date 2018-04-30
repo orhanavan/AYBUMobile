@@ -28,5 +28,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'org.jsoup:jsoup:1.11.3'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+
 }
 
