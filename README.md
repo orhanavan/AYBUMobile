@@ -2,6 +2,8 @@
 ### Ankara Yıldırım Beyazıt University Computer Engineering Department
 ### CENG-427 Mobile Programming Course Homework - 2
 
+You can get apk here : https://goo.gl/uS28cf 
+
 This mobile application consist of 3 parts. Parts retrieves information about daily food-list, department announcements and department news with web scraping methods.
 - Food List: http://ybu.edu.tr/sks/
 - Announcements: http://ybu.edu.tr/muhendislik/bilgisayar/content_list-257-duyurular.html
