@@ -64,7 +64,6 @@ public class NewsFragment extends Fragment {
                     }
                 });
 //          if there are new content, paste this code above if's else
-//
 //                progressBar.setVisibility(View.VISIBLE);
 //                String script = "javascript:__doPostBack('ctl00$ContentPlaceHolder1$Content_List1$Sayfalama','"+Integer.toString(++page)+"')";
 //                web.evaluateJavascript(script, new ValueCallback<String>() {

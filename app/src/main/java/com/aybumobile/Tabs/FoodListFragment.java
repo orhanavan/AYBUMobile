@@ -64,9 +64,11 @@ public class FoodListFragment extends Fragment {
                 Elements elements = document.select("font");
                 info.add(elements.get(0).text());
                 info.add(elements.get(1).text());
+
+                elements = document.select("b");
+                info.add(elements.get(0).text());
+                info.add(elements.get(1).text());
                 info.add(elements.get(2).text());
-                info.add(elements.get(3).text());
-                info.add(elements.get(4).text());
 
             } catch (IOException e) {
                 e.printStackTrace();
