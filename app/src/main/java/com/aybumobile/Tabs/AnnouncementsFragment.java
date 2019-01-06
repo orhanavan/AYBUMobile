@@ -82,7 +82,7 @@ public class AnnouncementsFragment extends Fragment {
                 @Override
                 public void run() {
                     WebSettings faller = web.getSettings();
-                    final String url = "http://ybu.edu.tr/muhendislik/bilgisayar/content_list-257-duyurular.html";
+                    final String url = "https://www.aybu.edu.tr/muhendislik/bilgisayar/content_list-257-duyurular.html";
                     faller.setJavaScriptEnabled(true);
                     web.loadUrl(url);
                 }

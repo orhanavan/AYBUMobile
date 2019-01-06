@@ -100,7 +100,7 @@ public class NewsFragment extends Fragment {
                 @Override
                 public void run() {
                     WebSettings faller = web.getSettings();
-                    final String url = "http://ybu.edu.tr/muhendislik/bilgisayar/content_list-314-haberler.html";
+                    final String url = "https://www.aybu.edu.tr/muhendislik/bilgisayar/content_list-314-haberler.html";
                     faller.setJavaScriptEnabled(true);
                     web.loadUrl(url);
                 }

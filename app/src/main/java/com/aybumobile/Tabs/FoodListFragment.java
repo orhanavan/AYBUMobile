@@ -60,7 +60,7 @@ public class FoodListFragment extends Fragment {
         protected Void doInBackground(Void... voids) {
 
             try {
-                Document document = Jsoup.connect("http://ybu.edu.tr/sks/").get();
+                Document document = Jsoup.connect("https://aybu.edu.tr/sks/").get();
                 Elements elements = document.select("font");
                 info.add(elements.get(0).text());
                 info.add(elements.get(1).text());
